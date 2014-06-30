@@ -7,11 +7,17 @@ Pmwiki to markdown whole site converter
 Usage
 =======
 
-1. Copy entire folder plugins/markdown-output to your pmwiki instalation at cookbook folder
+1)
+------
+
+ Copy entire folder plugins/markdown-output to your pmwiki instalation at cookbook folder
 
 `$ cp -a plugins/markdown-output /path/to/your-pmwiki/cookbook`
  
-2. enable the plugin at your pmwiki config file and add the include
+2)
+------
+
+ Enable the plugin at your pmwiki config file and add the include
 
 `$ [editor] /path/to/your-pmwiki/local/config.php`
  
@@ -19,7 +25,10 @@ Usage
 
 `include_once("cookbook/markdown-output/markdown-output.php");`
 
-3. create a config file, based on sample.conf
+3)
+------
+
+Create a config file, based on sample.conf
 
  `$ cp sample.conf your-wiki.conf`
 
@@ -39,7 +48,9 @@ Usage
 
  `MDWNOUTPUT='/var/www/mdwn/'`
  
-4. run it
+4)
+------
+ run it!
 
 `$ ./convert.sh your-wiki.conf`
 
