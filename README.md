@@ -22,17 +22,21 @@ Usage
 3. create a config file, based on sample.conf
 
  `$ cp sample.conf your-wiki.conf`
+
  ` [editor] your-wiki.conf`
 
 ... and change the variables:
 
  `# where is your pmwiki`
+
  `WIKIDIR='/var/www/wiki'`
- ``
+
  `# address to your wiki`
+
  `WIKIADDRESS='http://localhost/wiki'`
- ``
+
  `# destination folder - markdown output`
+
  `MDWNOUTPUT='/var/www/mdwn/'`
  
 4. run it
