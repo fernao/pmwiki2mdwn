@@ -13,5 +13,5 @@ for PAGE in `ls $WIKIPAGESDIR`
   echo $PAGE
   
   # para cada pagina, gera o markdown
-  wget -O $MDWNOUTPUT/$PAGE.mdwn $WIKIADDRESS/index.php?n=$PAGE&action=markdown
+  wget -O $MDWNOUTPUT/$PAGE.mdwn $WIKIADDRESS/index.php?n=$PAGE?action=markdown
 done
