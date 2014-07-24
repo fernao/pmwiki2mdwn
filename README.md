@@ -1,3 +1,17 @@
+NOTICE
+======
+
+This project has been discontinued; I've changed the approach and decided to move all intent to a tool able to migrate from HTML, PmWiki or whatelse into Ikiwiki, by converting everything to markdown.
+
+Check it out:
+https://github.com/fernao/site2ikiwiki/
+
+cheers,
+Fernão Lopes
+July 24 - 2014
+
+
+
 pmwiki2mdwn
 =======
 
